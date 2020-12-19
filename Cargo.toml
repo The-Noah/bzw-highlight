@@ -3,6 +3,12 @@ name = "bzw_highlight"
 version = "0.1.0"
 authors = ["The Noah <thenoahbz@gmail.com>"]
 edition = "2018"
+description = "BZW syntax highlighter"
+readme = "README.md"
+homepage = "https://github.com/The-Noah/bzw-highlight"
+repository = "https://github.com/The-Noah/bzw-highlight"
+license = "MIT"
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
