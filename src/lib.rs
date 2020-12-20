@@ -30,7 +30,7 @@ const HEADERS: [&str; 30] = [
   "enddef",
   "drawInfo",
   "lod",
-  "end"
+  "end",
 ];
 
 const KEYWORDS: [&str; 11] = [
@@ -44,14 +44,14 @@ const KEYWORDS: [&str; 11] = [
   "from",
   "to",
   "noWalls",
-  "freeCtfSpawns"
+  "freeCtfSpawns",
 ];
 
-fn highlight_span(class: &str) -> String{
+fn highlight_span(class: &str) -> String {
   format!("<span class=\"{}\">$1</span>", class)
 }
 
-pub fn to_html(text: &str) -> String{
+pub fn to_html(text: &str) -> String {
   let symbol = highlight_span("symbol");
   let symbol_str = symbol.as_str();
 
